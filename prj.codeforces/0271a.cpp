@@ -22,7 +22,7 @@ int main() {
     is_beaty = is_beaty && d3 != d1;
     is_beaty = is_beaty && d2 != d1;
     if (is_beaty) {
-      // для красивого печать и конец работы
+      // для красивого года печать и конец работы
       std::cout << b;
       break;
     }

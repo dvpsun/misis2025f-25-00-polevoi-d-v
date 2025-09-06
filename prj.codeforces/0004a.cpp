@@ -1,6 +1,6 @@
 // 2022 by Polevoi Dmitry
 // task source https://codeforces.com/problemset/problem/4/A
-// 4A Слоник
+// 4A Арбуз
 
 #include <iostream>
 
