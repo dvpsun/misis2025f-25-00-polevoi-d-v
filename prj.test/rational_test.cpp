@@ -19,4 +19,6 @@ TEST_CASE("[rationa] - ctor") {
   Rational r3(2, -6);
   CHECK(-1 == r2.num());
   CHECK(3 == r2.den());
+
+  CHECK_THROWS(Rational(1, 0));
 }
