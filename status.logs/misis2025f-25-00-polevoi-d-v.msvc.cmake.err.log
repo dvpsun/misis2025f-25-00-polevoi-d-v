@@ -1,8 +1,0 @@
-CMake Error at CMakeLists.txt:34 (add_subdirectory):
-  The source directory
-
-    D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/prj.check
-
-  does not contain a CMakeLists.txt file.
-
-

@@ -1,1 +1,22 @@
 Test project D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/build.check
+    Start 1: doctest_complex
+    Start 2: doctest_complex_io
+    Start 3: doctest_rational
+    Start 4: doctest_rational_io
+    Start 5: doctest_rational_contracts
+1/5 Test #1: doctest_complex ..................***Failed    0.37 sec
+2/5 Test #3: doctest_rational .................***Failed    0.23 sec
+3/5 Test #5: doctest_rational_contracts .......***Failed    0.07 sec
+4/5 Test #2: doctest_complex_io ...............***Failed    0.31 sec
+5/5 Test #4: doctest_rational_io ..............***Failed    0.16 sec
+
+0% tests passed, 5 tests failed out of 5
+
+Total Test time (real) =   0.50 sec
+
+The following tests FAILED:
+	  1 - doctest_complex (Failed)
+	  2 - doctest_complex_io (Failed)
+	  3 - doctest_rational (Failed)
+	  4 - doctest_rational_io (Failed)
+	  5 - doctest_rational_contracts (Failed)
