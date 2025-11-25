@@ -1,8 +1,10 @@
-STAMP: 20251122-092532
+STAMP: 20251125-234944
 OK: file codeforces.id is correct
 OK: CMake generator successed
 OK: folder prj.codeforces structure is correct
-STATUS: lab complex - test-failed
-STATUS: lab complex_io - test-failed
-STATUS: lab rational - test-failed
-STATUS: lab rational_io - test-failed
+ERROR: lab complex - test build failed
+ERROR: lab complex_io - test build failed
+ERROR: lab rational - test build failed
+ERROR: lab rational_io - test build failed
+ERROR: lab rational_contracts - test build failed
+ERROR: lab arrayd - test build failed
