@@ -4,15 +4,15 @@ Test project D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/mis
     Start 3: doctest_rational
     Start 4: doctest_rational_io
     Start 5: doctest_rational_contracts
-1/5 Test #1: doctest_complex ..................***Failed    0.26 sec
-2/5 Test #3: doctest_rational .................***Failed    0.15 sec
-3/5 Test #2: doctest_complex_io ...............***Failed    0.20 sec
-4/5 Test #4: doctest_rational_io ..............***Failed    0.09 sec
-5/5 Test #5: doctest_rational_contracts .......***Failed    0.05 sec
+1/5 Test #1: doctest_complex ..................***Failed    0.22 sec
+2/5 Test #3: doctest_rational .................***Failed    0.12 sec
+3/5 Test #2: doctest_complex_io ...............***Failed    0.17 sec
+4/5 Test #4: doctest_rational_io ..............***Failed    0.08 sec
+5/5 Test #5: doctest_rational_contracts .......***Failed    0.03 sec
 
 0% tests passed, 5 tests failed out of 5
 
-Total Test time (real) =   0.31 sec
+Total Test time (real) =   0.28 sec
 
 The following tests FAILED:
 	  1 - doctest_complex (Failed)
