@@ -1,4 +1,4 @@
-STAMP: 20251128-134748
+STAMP: 20251204-092028
 OK: file codeforces.id is correct
 OK: CMake generator successed
 OK: folder prj.codeforces structure is correct
