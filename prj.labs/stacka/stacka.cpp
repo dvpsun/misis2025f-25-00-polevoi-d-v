@@ -10,6 +10,9 @@ StackA::StackA(const StackA& src) {
   }
 }
 
+StackA::~StackA() {
+}
+
 StackA& StackA::operator=(const StackA& src) {
   if (this != &src) {
   }
