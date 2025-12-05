@@ -1,4 +1,4 @@
-STAMP: 20251205-092303
+STAMP: 20251205-095451
 OK: file codeforces.id is correct
 OK: CMake generator successed
 OK: folder prj.codeforces structure is correct
@@ -8,5 +8,5 @@ STATUS: lab rational - test-failed
 STATUS: lab rational_io - test-failed
 STATUS: lab rational_contracts - test-failed
 STATUS: lab arrayd - test-ok
-ERROR: lab stacka - test build failed
+STATUS: lab stacka - test-failed
 STATUS: lab stackl - test-ok
