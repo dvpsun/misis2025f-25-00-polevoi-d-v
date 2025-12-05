@@ -1,0 +1,5 @@
+CMake Error at prj.check/prj.check/CMakeLists.txt:7 (add_subdirectory):
+  add_subdirectory given source "doctest_stackla" which is not an existing
+  directory.
+
+
