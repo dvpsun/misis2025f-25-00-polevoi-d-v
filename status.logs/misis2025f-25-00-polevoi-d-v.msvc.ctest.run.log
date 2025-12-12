@@ -7,18 +7,18 @@ Test project D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/mis
     Start 6: doctest_rational_contracts
     Start 7: doctest_stackl
     Start 8: doctest_stacka
-1/8 Test #1: doctest_arrayd ...................   Passed    0.44 sec
-2/8 Test #2: doctest_complex ..................***Failed    0.39 sec
-3/8 Test #4: doctest_rational .................***Failed    0.27 sec
-4/8 Test #6: doctest_rational_contracts .......***Failed    0.15 sec
-5/8 Test #7: doctest_stackl ...................   Passed    0.09 sec
-6/8 Test #3: doctest_complex_io ...............***Failed    0.34 sec
-7/8 Test #5: doctest_rational_io ..............***Failed    0.22 sec
-8/8 Test #8: doctest_stacka ...................***Timeout   9.57 sec
+1/8 Test #1: doctest_arrayd ...................   Passed    1.28 sec
+2/8 Test #2: doctest_complex ..................***Failed    1.10 sec
+3/8 Test #4: doctest_rational .................***Failed    0.69 sec
+4/8 Test #6: doctest_rational_contracts .......***Failed    0.37 sec
+5/8 Test #7: doctest_stackl ...................   Passed    0.25 sec
+6/8 Test #3: doctest_complex_io ...............***Failed    0.88 sec
+7/8 Test #5: doctest_rational_io ..............***Failed    0.55 sec
+8/8 Test #8: doctest_stacka ...................***Timeout   8.76 sec
 
 25% tests passed, 6 tests failed out of 8
 
-Total Test time (real) =  11.35 sec
+Total Test time (real) =  10.96 sec
 
 The following tests FAILED:
 	  2 - doctest_complex (Failed)
