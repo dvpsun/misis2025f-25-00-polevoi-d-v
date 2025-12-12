@@ -1,24 +1,44 @@
 Test project D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/build.check
-    Start 1: doctest_arrayd
-    Start 2: doctest_complex
-    Start 3: doctest_complex_io
-    Start 4: doctest_rational
-    Start 5: doctest_rational_io
-    Start 6: doctest_rational_contracts
-    Start 7: doctest_stackl
-    Start 8: doctest_stacka
-1/8 Test #1: doctest_arrayd ...................   Passed    0.69 sec
-2/8 Test #2: doctest_complex ..................***Failed    0.60 sec
-3/8 Test #4: doctest_rational .................***Failed    0.40 sec
-4/8 Test #6: doctest_rational_contracts .......***Failed    0.23 sec
-5/8 Test #7: doctest_stackl ...................   Passed    0.15 sec
-6/8 Test #3: doctest_complex_io ...............***Failed    0.50 sec
-7/8 Test #5: doctest_rational_io ..............***Failed    0.32 sec
-8/8 Test #8: doctest_stacka ...................***Timeout   9.32 sec
+      Start  1: doctest_arrayd
+      Start  2: doctest_complex
+      Start  3: doctest_complex_io
+      Start  4: doctest_rational
+      Start  5: doctest_rational_io
+      Start  6: doctest_rational_contracts
+      Start  7: doctest_queuea
+Could not find executable D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuea.exe
+Looked in the following places:
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuea.exe
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuea.exe.exe
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/Release/doctest_queuea.exe
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/Release/doctest_queuea.exe.exe
+Release/D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuea.exe
+Release/D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuea.exe.exe
+ 1/10 Test  #7: doctest_queuea ...................***Not Run   0.00 sec
+      Start  8: doctest_queuel
+Could not find executable D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuel.exe
+Looked in the following places:
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuel.exe
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuel.exe.exe
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/Release/doctest_queuel.exe
+D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/Release/doctest_queuel.exe.exe
+Release/D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuel.exe
+Release/D:/private/syncthing/obsidian.dvpsun/3C/misis2025f-25-check-run/misis2025f-25-00-polevoi-d-v/bin.check/doctest_queuel.exe.exe
+ 2/10 Test  #8: doctest_queuel ...................***Not Run   0.00 sec
+      Start  9: doctest_stackl
+      Start 10: doctest_stacka
+ 3/10 Test  #1: doctest_arrayd ...................   Passed    1.62 sec
+ 4/10 Test  #2: doctest_complex ..................***Failed    1.38 sec
+ 5/10 Test  #4: doctest_rational .................***Failed    0.91 sec
+ 6/10 Test  #6: doctest_rational_contracts .......***Failed    0.52 sec
+ 7/10 Test  #9: doctest_stackl ...................   Passed    0.26 sec
+ 8/10 Test  #3: doctest_complex_io ...............***Failed    1.12 sec
+ 9/10 Test  #5: doctest_rational_io ..............***Failed    0.70 sec
+10/10 Test #10: doctest_stacka ...................***Timeout   8.38 sec
 
-25% tests passed, 6 tests failed out of 8
+20% tests passed, 8 tests failed out of 10
 
-Total Test time (real) =  10.59 sec
+Total Test time (real) =  10.80 sec
 
 The following tests FAILED:
 	  2 - doctest_complex (Failed)
@@ -26,4 +46,6 @@ The following tests FAILED:
 	  4 - doctest_rational (Failed)
 	  5 - doctest_rational_io (Failed)
 	  6 - doctest_rational_contracts (Failed)
-	  8 - doctest_stacka (Timeout)
+	  7 - doctest_queuea (Not Run)
+	  8 - doctest_queuel (Not Run)
+	 10 - doctest_stacka (Timeout)
