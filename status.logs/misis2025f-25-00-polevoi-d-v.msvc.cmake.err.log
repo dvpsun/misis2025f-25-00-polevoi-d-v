@@ -1,4 +1,4 @@
-CMake Error at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:904 (_find_package):
+CMake Warning at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:904 (_find_package):
   By not providing "Finddoctest.cmake" in CMAKE_MODULE_PATH this project has
   asked CMake to find a package configuration file provided by "doctest", but
   CMake did not find one.
@@ -17,3 +17,134 @@ Call Stack (most recent call first):
   CMakeLists.txt:33 (find_package)
 
 
+CMake Error at prj.check/prj.check/doctest_arrayd/CMakeLists.txt:2 (target_link_libraries):
+  Target "doctest_arrayd" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_complex/CMakeLists.txt:2 (target_link_libraries):
+  Target "doctest_complex" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_complex/CMakeLists.txt:7 (target_link_libraries):
+  Target "doctest_complex_io" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_rational/CMakeLists.txt:2 (target_link_libraries):
+  Target "doctest_rational" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_rational/CMakeLists.txt:6 (target_link_libraries):
+  Target "doctest_rational_io" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_rational/CMakeLists.txt:10 (target_link_libraries):
+  Target "doctest_rational_contracts" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_queuea/CMakeLists.txt:2 (target_link_libraries):
+  Target "doctest_queuea" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_queuel/CMakeLists.txt:2 (target_link_libraries):
+  Target "doctest_queuel" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_stackl/CMakeLists.txt:2 (target_link_libraries):
+  Target "doctest_stackl" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at prj.check/prj.check/doctest_stacka/CMakeLists.txt:2 (target_link_libraries):
+  Target "doctest_stacka" links to:
+
+    doctest::doctest
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
