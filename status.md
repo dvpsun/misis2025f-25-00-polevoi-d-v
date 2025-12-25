@@ -1,5 +1,5 @@
-STAMP: 20251225-231723
-ERROR: codeforces id is wrong
+STAMP: 20251225-231756
+OK: file codeforces.id is correct
 ERROR: file prj.test/arrayd_test.cpp is absent
 ERROR: file prj.test/stackl_test.cpp is absent
 ERROR: file prj.test/queuel_test.cpp is absent
